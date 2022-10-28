@@ -1,0 +1,141 @@
+body {
+    font-family: tahoma, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-top: 1px solid transparent;
+    height: 50px;
+}
+
+.logo {
+    background-color: rgb(16, 20, 28);
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.img-logo {
+    margin-top: 5px;
+    margin-left: 280px;
+    height: 40px;
+}
+
+nav {
+    margin-top: 5px;
+    position: relative;
+    bottom: 40px;
+    height: 100%;
+}
+
+ul {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+    letter-spacing: 5px;
+}
+
+a:link{
+    text-decoration: none;
+    color: rgb(42, 55, 64);
+    transition: color 0.3s linear;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.img-topo {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.section-main {
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.img-section {
+    padding: 10px;
+    overflow: auto;
+}
+
+.img-div {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+}
+
+.img-div1 {
+    width: 32%;
+    float: right;
+}
+
+p {
+    line-height: 2;
+}
+
+h4 {
+    color: rgba(0, 0, 0, 0.575);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.pdiv{
+    color: lightgrey;
+}
+
+article {
+    background-color: #003d52;
+    width: 90%;
+    margin-left: 5%;
+    height: 600px;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.div-h1{
+    color: white;
+    padding: 4%;
+    width: 90%;
+}
+
+.h1-article{
+    font-size: 60px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.p2{
+    width: 50%;
+}
+
+.nav-contato{
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(1, 87, 116);
+}
+
+iframe{
+    margin-left: 5%;
+}
+
+footer{
+    background-color: rgb(16, 20, 28);
+    color: rgb(42, 55, 64);
+    text-align: center; 
+    width: 90%;
+    margin-left: 5%;
+    height: 50px;
+    line-height: 50px;
+}

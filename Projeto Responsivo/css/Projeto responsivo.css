@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f6f6f6;
+}
+
+.center {
+    text-align: center;
+}
+
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.hidden {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+}
+
+.header-top .img-logo {
+    margin: .5em;
+}
+
+.header-nav .nav-ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: white;
+    background-color: rebeccapurple;
+}
+
+.header-nav .nav-ul a {
+    padding: 1em;
+    display: block;
+}
+
+.header-nav .nav-ul li a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.header-nav .nav-ul li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.header-nav .nav-ul li:hover {
+    background-color: rgb(160, 70, 250);
+}
+
+.icon-play {
+    height: 5em;
+    display: none;
+}
+
+.icon-play img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.section-top .section-h1 {
+    color: rebeccapurple;
+}
+
+.section-h2 {
+    font-size: 1em;
+    line-height: 1.5;
+    color: rgb(201, 151, 250);
+}
+
+.button-section {
+    display: inline-block;
+    padding: 0.9em 2.5em;
+    background: #58c4c4;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.button-section:hover {
+    background-color: #2ead89;
+    cursor: pointer;
+}
+
+.section-middle {
+    margin-top: 2rem;
+}
+
+.div-pad {
+    padding: 2em;
+}
+
+.section-middle span[class^=icon] {
+    color: rebeccapurple;
+    font-size: 3.5em;
+}
+
+.section-middle h3 {
+    color: rebeccapurple;
+    text-transform: uppercase;
+}
+
+.section-middle p {
+    line-height: 1.5;
+    color: #222;
+}
+
+.section-main {
+    background-color: white;
+}
+
+.section-main article {
+    padding-bottom: 3.5em;
+}
+
+.section-main h3 {
+    color: rebeccapurple;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.section-main p {
+    line-height: 1.2;
+}
+
+.footer-body {
+    background: #25303e;
+    color: #83969f;
+    padding-bottom: 2em;
+    clear: both;
+}
+
+.footer-body ul {
+    background: #303d4c;
+    padding: .5em;
+}
+
+.footer-body ul li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.footer-body ul a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-body ul+p {
+    padding-top: 1em;
+}
+
+.footer-body p {
+    background-color: #25303e;
+    padding-bottom: 2em;
+    color: #83969f;
+    margin: 0;
+}
+
+@media screen and (min-width: 48.75em) {
+    .img-logo{
+        float: left;
+    }
+
+    .header-nav {
+        float: right;
+        margin-top: 25px;
+    }
+
+    .header-nav .nav-ul{
+        background-color: transparent;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-nav li {
+        display: inline-block;
+    }
+
+    .header-nav .nav-ul li a {
+        color: rebeccapurple;
+    }
+
+    .header-nav .nav-ul li a:visited {
+        color: rebeccapurple;
+    }
+    
+    .header-nav .nav-ul li:hover {
+        background-color: rgba(205, 164, 247, 0.562);
+    }
+
+    .icon-play {
+        display: block;
+        padding: 1em;
+    }
+
+    .section-top {
+        padding: 1em;
+        background-color: rebeccapurple;
+    }
+
+    .section-top .section-h1{
+        margin: 0;
+        color: white;
+    }
+
+    .section-top .section-h2 {
+        color: white;
+    }
+
+    .col {
+        width: 44%;
+        margin: 3%;
+        float: left;
+    }
+
+    .section-main .button-section {
+        float: right;
+    }
+}
+
+@media screen and (min-width: 62.5em){
+    .section-top {
+        background: rebeccapurple url(../images/bg_topo_1198x670.jpg);
+        background-position: center bottom;
+        height: 20em;
+        padding-top: 17em;
+    }
+
+    .section-h2 {
+        padding: 1em;
+    }
+}
+
+@media screen and (min-width: 74em){
+    .icon-play {
+        height: 7em;
+    }
+
+    .section-top {
+        background-image: url(../images/bg_topo_1600x1374.jpg);
+        padding: 19em 20em 10em;
+        background-position: center top;
+    }
+
+    .col {
+        width: 19%;
+        margin: 3%;
+        float: left;
+    }
+
+    .col-1 {
+        width: 48%;
+        margin: 1%;
+        float: left;
+    }
+
+    .section-main {
+        height: 500px;
+    }
+
+    .section-main article .button-section{
+        float: none;
+    }
+
+    .footer-body ul {
+        margin-top: 0;
+    }
+}
+
+
+
+
